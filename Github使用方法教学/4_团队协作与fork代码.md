@@ -6,6 +6,7 @@
         Read: 只读   Triage: 可管理 issue 和 PR    Write: 可推送代码（推荐）    Maintain: 可管理仓库设置   Admin: 完全控制
 
 4. 团队协作工作流，推荐模式：Forking 工作流 或 分支保护工作流
+    ```
     方案 A：分支保护工作流（小团队 2-5 人）
         main 分支（受保护，不能直接推送）
                  ↑
@@ -37,3 +38,4 @@
 
         # 5. 在 GitHub 发起 Pull Request → 请求合并到 main
         # 6. 其他成员 Code Review → 批准 → 合并
+    ```
